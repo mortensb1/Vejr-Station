@@ -5,7 +5,7 @@ import os
 token = os.environ.get("API_SECRECT")
 
 # Request the data
-response = requests.get(f"https://api.weather.com/v2/pws/observations/all/1day?stationId=IRISSK13&format=json&units=m&apiKey={token}")
+response = requests.get(f"https://api.weather.com/v2/pws/observations/all/1day?stationId=IAARHU44&format=json&units=m&apiKey={token}")
 
 # Read the response as json data
 dataJson = response.json()
